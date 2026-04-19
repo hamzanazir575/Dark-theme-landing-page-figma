@@ -9,9 +9,6 @@ body {
   color: white;
   font-family: 'Raleway', sans-serif;
   margin: 0 auto;
-  background-image: url(images/main-bg-image.png);
-  background-size: cover;
-  background-repeat: no-repeat;
 }
 
 nav {
@@ -58,40 +55,45 @@ nav img {
   justify-content: center;
   align-items: center;
   margin: 0 auto;
-  max-width: 600px;
+  max-width: 700px;
   text-align: center;
-}
-
-.hero p {
-  padding-inline: 60px;
 }
 
 .hero img {
   max-width: 600px;
   margin-top: 2rem;
+  margin-bottom: 2rem;
 }
-.content {
+
+.bg__img {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   margin: 0 auto;
+  max-width: 600px;
   text-align: center;
-  max-width: 50%;
+}
+
+.bg__img p {
+  padding-inline: 10px;
+  font-weight: 400;
+  line-height: 30px;
+  font-size: 20px;
+}
+
+.bg__img-section {
+  background-image: url(images/main-bg-image.png);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 h1 {
   font-weight: 700;
   margin-bottom: 20px;
-  line-height: 3rem;
+  font-size: 40px;
+  line-height: 60px;
 }
-
-.content-detail p {
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 30px;
-  max-width: 39%;
-  font-family: 'Open Sans';
-  margin: 0 auto;
-  text-align: center;
-}
-
 .btn-primary {
   padding: 10px 80px;
   display: flex;
@@ -406,14 +408,6 @@ footer {
     max-width: 100%;
     margin-top: 1rem;
   }
-  .content {
-    max-width: 100%;
-    text-align: center;
-  }
-  .content-detail p {
-    max-width: 100%;
-    text-align: center;
-  }
   .btn-primary {
     padding: 1rem 4rem;
   }
@@ -505,7 +499,7 @@ footer {
     padding-inline: 10px;
   }
 
-  .hero p {
+  .bg__img p {
     font-size: 14px;
     font-weight: 400;
     line-height: 21px;
@@ -519,8 +513,7 @@ footer {
   .logo {
     width: 100px;
   }
-  .content,
-  .content-detail p,
+
   .services-section {
     max-width: 100%;
     padding: 20px;
