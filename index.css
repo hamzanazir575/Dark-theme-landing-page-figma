@@ -9,7 +9,9 @@ body {
   color: white;
   font-family: 'Raleway', sans-serif;
   margin: 0 auto;
-  padding: 16px;
+  background-image: url(images/main-bg-image.png);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 nav {
@@ -46,18 +48,8 @@ nav {
 }
 
 nav img {
-  /* width: 150px;
-  max-width: 1440px; */
   max-width: 100%;
-}
-
-section {
-  /* background-image: url(/images/Path\ 2.png);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  position: relative;
-  z-index: -2; */
+  margin-left: 20px;
 }
 
 .hero {
@@ -82,19 +74,6 @@ section {
   margin: 0 auto;
   text-align: center;
   max-width: 50%;
-}
-
-/* Content box fix for left alignment and overflow prevention */
-.content-box {
-  max-width: 600px;
-  width: 100%;
-  margin-left: 40px; /* Adjust as needed for spacing from the left */
-  padding: 32px;
-  background: #23232b;
-  color: #fff;
-  box-sizing: border-box;
-  border-radius: 8px;
-  overflow-wrap: break-word;
 }
 
 h1 {
@@ -164,7 +143,7 @@ h1 {
 .about-section {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-evenly;
   margin-top: 4rem;
   gap: 4rem;
   margin-bottom: 6rem;
@@ -189,16 +168,6 @@ h1 {
   max-width: 72%;
   margin-bottom: 10px;
 }
-
-/* .about-text .link {
-  display: inline-flex;
-  align-items: center;
-  gap: 8px;
-  color: #62e0d9;
-  text-decoration: none;
-  border-bottom: 1px solid #62e0d9;
-  cursor: pointer;
-} */
 .about-text .link {
   display: inline-flex !important;
   align-items: center;
@@ -461,7 +430,6 @@ footer {
     width: 100%;
     box-sizing: border-box;
     padding: 0 30px;
-    /* text-align: center; */
   }
   .about-section .about-text h3,
   .about-section .about-text p {
@@ -472,13 +440,6 @@ footer {
   .about-text {
     text-align: center;
   }
-
-  /* .about-text .link {
-    display: block;
-    text-align: center;
-    width: 23%;
-    margin: 0 auto;
-  } */
 
   .about-text .link {
     display: inline-flex !important;
@@ -587,10 +548,6 @@ footer {
     line-height: 21px;
     font-weight: 400;
     text-align: left;
-  }
-
-  .about-section .link a {
-    /* padding-left: 15px; */
   }
 
   .link:hover {
