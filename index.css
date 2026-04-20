@@ -76,7 +76,7 @@ nav img {
 }
 
 .bg__img p {
-  width: 90%;
+  width: 70%;
   padding-inline: 10px;
   font-weight: 400;
   line-height: 30px;
@@ -141,6 +141,7 @@ h1 {
   font-size: 14px;
   line-height: 21px;
   padding-inline: 80px;
+  max-width: 78%;
 }
 
 .about-section {
@@ -211,7 +212,7 @@ h1 {
 .testimonial-section .testimonial-quote {
   position: absolute;
   top: -36px;
-  left: 90px;
+  left: 280px;
   z-index: -1;
 }
 
@@ -391,8 +392,7 @@ footer {
 }
 
 .footer-social img {
-  width: 30px;
-  border: 1px solid white;
+  width: 50px;
   border-radius: 50%;
   padding: 6px;
   cursor: pointer;
@@ -408,6 +408,7 @@ footer {
   .bg__img-section {
     background-size: contain;
   }
+
   .about-section .about-image {
     max-width: 500px;
     margin-left: 0px;
@@ -549,13 +550,23 @@ footer {
     line-height: 36px;
     font-weight: 700;
     padding-inline: 10px;
+    max-width: 90%;
+  }
+
+  .bg__img {
+    max-width: 100%;
   }
 
   .bg__img p {
     font-size: 14px;
     font-weight: 400;
     line-height: 21px;
-    padding-inline: 30px;
+    padding-inline: 40px;
+    width: 100%;
+  }
+
+  .bg__img-section {
+    background-image: none;
   }
 
   nav {
@@ -568,12 +579,15 @@ footer {
 
   .services-section {
     max-width: 100%;
-    padding: 20px;
   }
 
-  .services-section p {
-    padding-inline: 25px;
+  .services-section .service p {
     margin-bottom: 4rem;
+    max-width: 100%;
+    font-size: 14px;
+    line-height: 21px;
+    font-weight: 400;
+    padding-inline: 30px;
   }
 
   .about-text {
@@ -627,13 +641,6 @@ footer {
     font-weight: 700;
   }
 
-  .services-section .service p {
-    font-size: 14px;
-    line-height: 21px;
-    font-weight: 400;
-    padding-inline: 5px;
-  }
-
   .testimonial-section .testimonial .testimonial-author p {
     margin-bottom: 10px;
   }
@@ -645,7 +652,6 @@ footer {
     padding-inline: 20px;
   }
   .testimonial-section .testimonial p {
-    margin-right: 0;
     font-size: 10px;
     line-height: 18px;
     font-weight: 400;
@@ -666,24 +672,27 @@ footer {
   }
   .cta {
     max-width: 100%;
-    padding: 1rem;
+    padding: 0px;
+    margin: 1rem;
     box-sizing: border-box;
-    margin-bottom: -100px;
   }
 
   .cta h5 {
     font-size: 18px;
     font-weight: 700;
     line-height: 24px;
+    padding-top: 20px;
   }
 
   .cta p {
+    max-width: 100%;
     font-size: 14px;
     font-weight: 400;
     line-height: 21px;
     text-align: center;
     margin-bottom: 20px;
     font-family: 'Open Sans';
+    padding-inline: 50px;
   }
 
   .email-box input[type='email'],
