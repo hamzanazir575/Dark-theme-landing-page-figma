@@ -204,21 +204,20 @@ h1 {
   grid-template-columns: repeat(3, minmax(250px, 400px));
   place-content: center;
   gap: 2rem;
-  position: relative;
-  z-index: 2;
   margin-bottom: 10rem;
 }
 
 .testimonial-section .testimonial-quote {
   position: absolute;
   top: -36px;
-  left: 280px;
-  z-index: -1;
+  left: 0px;
+  z-index: 0;
 }
 
 .testimonial-section .testimonial {
   background-color: #202a3c;
   padding: 40px;
+  position: relative;
 }
 
 .testimonial-section .testimonial p {
@@ -249,7 +248,7 @@ h1 {
   max-width: 50%;
   margin: 0 auto;
   padding: 2rem;
-  z-index: 20;
+  z-index: 1;
   position: relative;
   transform: translateY(40%);
   box-shadow: 2px 2px 5px rgb(0, 0, 0);
@@ -304,7 +303,7 @@ footer {
   padding-top: 4rem;
   padding-bottom: 4rem;
   position: relative;
-  z-index: 1;
+  z-index: 0;
 }
 
 .footer-container {
@@ -402,24 +401,6 @@ footer {
   filter: brightness(0) saturate(100%) invert(55%) sepia(80%) saturate(500%)
     hue-rotate(160deg);
   border-color: #63e1d9;
-}
-
-@media (max-width: 2170px) {
-  .testimonial-section .testimonial-quote {
-    left: 400px;
-  }
-}
-
-@media (max-width: 1700px) {
-  .testimonial-section .testimonial-quote {
-    left: 180px;
-  }
-}
-
-@media (max-width: 1200px) {
-  .testimonial-section .testimonial-quote {
-    left: 0px;
-  }
 }
 
 @media (max-width: 1100px) {
