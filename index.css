@@ -535,7 +535,6 @@ footer {
 
   .no-scroll {
     overflow: hidden;
-    height: 100vh;
   }
 
   .hero img {
@@ -654,7 +653,6 @@ footer {
   body {
     background-position: bottom center;
     background-size: 160vw 94%;
-    min-height: 100vh;
   }
   nav {
     margin-top: 24px;
