@@ -18,58 +18,64 @@
   </head>
 
   <body>
-    <!-- NAVIGATION SECTION -->
-
     <header>
       <nav>
         <a href="index.html">
           <img class="logo" src="images/logo.svg" alt="" />
         </a>
-
+        <div class="nav-links">
+          <ul>
+            <li>
+              <a href="#">Features</a>
+            </li>
+            <li>
+              <a href="#">Team</a>
+            </li>
+            <li>
+              <a href="#">Sign In</a>
+            </li>
+          </ul>
+        </div>
         <div class="hamburger">
           <span></span>
           <span></span>
           <span></span>
         </div>
-
-        <div class="nav-links">
-          <a href="#">Features</a>
-          <a href="#">Team</a>
-          <a href="#">Sign In</a>
-        </div>
       </nav>
     </header>
 
-    <!-- HERO SECTION -->
     <section>
-      <div class="hero">
-        <img src="images/hero-img.png" alt="" />
-        <h1>All your files in one secure location, accessible anywhere</h1>
+      <div class="hero-container">
+        <div class="hero">
+          <img src="images/hero-img.png" alt="" />
+          <h1>All your files in one secure location, accessible anywhere.</h1>
+          <p>
+            Fylo stores all your most important files in one secure location.
+            Access them wherever you need, share and collaborate with friends
+            family, and co-workers.
+          </p>
+          <button class="btn-primary">Get Started</button>
+        </div>
       </div>
     </section>
-
-    <section class="bg__img-section">
-      <div class="bg__img">
-        <p>
-          Fylo stores all your most important files in one secure location.
-          Access them wherever you need, share and collaborate with friends
-          family, and co-workers.
-        </p>
-        <button class="btn-primary">Get Started</button>
-      </div>
-      <!-- SERVICES SECTION -->
-      <section>
+    <section>
+      <div class="services-container">
         <div class="services-section">
           <div class="service">
-            <img src="images/pc.svg" alt="" />
+            <div class="services-img-wrapper">
+              <img src="images/pc.svg" alt="" />
+            </div>
             <h3>Access your files, anywhere</h3>
             <p>
               The ability to use a smartphone, tablet, or computer to access
               your account means your files follow you everywhere.
             </p>
           </div>
+
           <div class="service">
-            <img src="images/sheild.svg" alt="" />
+            <div class="services-img-wrapper">
+              <img src="images/sheild.svg" alt="" />
+            </div>
             <h3>Security you can trust</h3>
             <p>
               2-factor authentication and user-controlled encryption are just a
@@ -78,7 +84,9 @@
             </p>
           </div>
           <div class="service">
-            <img src="images/tick.svg" alt="" />
+            <div class="services-img-wrapper">
+              <img src="images/tick.svg" alt="" />
+            </div>
             <h3>Real-time collaboration</h3>
             <p>
               Securely share files and folders with friends, family and
@@ -86,7 +94,9 @@
             </p>
           </div>
           <div class="service">
-            <img src="images/folder.svg" alt="" />
+            <div class="services-img-wrapper">
+              <img src="images/folder.svg" alt="" />
+            </div>
             <h3>Store any type of file</h3>
             <p>
               Whether you're sharing holidays photos or work documents, Fylo has
@@ -95,12 +105,19 @@
             </p>
           </div>
         </div>
-      </section>
+      </div>
+    </section>
 
-      <!-- ABOUT SECTION -->
-      <section>
+    <section>
+      <div class="about-section-container">
         <div class="about-section">
-          <img class="about-image" src="images/illustration_2-01.png" alt="" />
+          <div class="about-section-image">
+            <img
+              class="about-image"
+              src="images/illustration_2-01.png"
+              alt=""
+            />
+          </div>
           <div class="about-text">
             <h3>Stay productive, wherever you are</h3>
             <p>
@@ -117,10 +134,11 @@
             </div>
           </div>
         </div>
-      </section>
+      </div>
+    </section>
 
-      <!-- TESTIMONIALS SECTION -->
-      <section>
+    <section>
+      <div class="testimonial-container">
         <div class="testimonial-section">
           <div class="testimonial">
             <img
@@ -170,10 +188,11 @@
             </div>
           </div>
         </div>
-      </section>
+      </div>
+    </section>
 
-      <!-- Sign-Up Section  -->
-      <section>
+    <section>
+      <div class="cta-container">
         <div class="cta">
           <h5>Get early access today</h5>
           <p>
@@ -188,18 +207,15 @@
             </div>
           </form>
         </div>
-      </section>
+      </div>
     </section>
 
-    <!-- FOOTER SECTION -->
     <footer>
       <div class="footer-container">
-        <!-- Logo -->
         <div class="footer-logo">
           <img src="images/logo.svg" alt="Fylo logo" />
         </div>
 
-        <!-- Location -->
         <div class="footer-location">
           <img src="images/location.svg" alt="" />
           <p>
@@ -208,19 +224,17 @@
           </p>
         </div>
 
-        <!-- Contact -->
         <div class="footer-contact">
           <div class="contact-item">
-            <img src="images/location.svg" alt="" />
+            <img src="images/phone-in-talk.svg" alt="" />
             <p>+1-543-123-4567</p>
           </div>
           <div class="contact-item">
-            <img src="images/location.svg" alt="" />
+            <img src="images/email.svg" alt="" />
             <p>example@fylo.com</p>
           </div>
         </div>
 
-        <!-- Links 1 -->
         <div class="footer-links">
           <a href="#">About Us</a>
           <a href="#">Jobs</a>
@@ -228,18 +242,22 @@
           <a href="#">Blog</a>
         </div>
 
-        <!-- Links 2 -->
         <div class="footer-links">
           <a href="#">Contact Us</a>
           <a href="#">Terms</a>
           <a href="#">Privacy</a>
         </div>
 
-        <!-- Social Icons -->
         <div class="footer-social">
-          <img src="images/facebook.svg" alt="" />
-          <img src="images/twitter.svg" alt="" />
-          <img src="images/instagram.svg" alt="" />
+          <a href="www.facebook.com">
+            <img src="images/facebook.svg" alt="facebook-icon" />
+          </a>
+          <a href="www.twitter.com">
+            <img src="images/twitter.svg" alt="twitter-icon" />
+          </a>
+          <a href="www.instagram.com">
+            <img src="images/instagram.svg" alt="instagram-icon" />
+          </a>
         </div>
       </div>
     </footer>
@@ -249,6 +267,7 @@
 
       hamburger.addEventListener('click', () => {
         navLinks.classList.toggle('active');
+        document.body.classList.toggle('no-scroll');
       });
     </script>
   </body>
