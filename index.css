@@ -98,7 +98,7 @@ nav ul {
 }
 
 .hero img {
-  width: 100%;
+  max-width: 100%;
   margin-bottom: 58px;
 }
 
@@ -361,6 +361,7 @@ nav ul {
   align-items: center;
   gap: 20px;
   padding-bottom: 41px;
+  position: relative;
 }
 
 .email-box input[type='email'] {
@@ -391,6 +392,18 @@ nav ul {
 .email-box input[type='submit']:hover {
   background: #8adae3;
   cursor: pointer;
+}
+
+.error-message {
+  color: red;
+  font-size: 12px;
+  font-family: 'Open Sans';
+  margin: 0;
+  padding: 0;
+  text-align: left;
+  position: absolute;
+  bottom: -25px;
+  left: center;
 }
 
 footer {
@@ -517,6 +530,11 @@ footer {
     background-image: url(images/main-bg-image.png);
     background-size: 100% 72%;
     background-repeat: no-repeat;
+  }
+
+  .footer-container {
+    max-width: 1920px;
+    padding-bottom: 30px;
   }
 }
 
