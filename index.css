@@ -82,7 +82,7 @@ nav ul {
   transform: rotate(-45deg) translate(6px, -6px);
 }
 
-.hero-container {
+.hero__container {
   padding-inline: 20px;
 }
 
@@ -146,7 +146,7 @@ nav ul {
   cursor: pointer;
 }
 
-.services-container {
+.services__container {
   padding-inline: 20px;
 }
 
@@ -197,7 +197,7 @@ nav ul {
   padding-inline: 15px;
 }
 
-.about-container {
+.about__container {
   padding-inline: 20px;
 }
 
@@ -263,7 +263,7 @@ nav ul {
   filter: brightness(0) saturate(100%) invert(1);
 }
 
-.testimonial-container {
+.testimonial__container {
   padding-inline: 20px;
 }
 .testimonial-section {
@@ -325,7 +325,7 @@ nav ul {
   padding-inline: 0;
 }
 
-.cta-container {
+.cta__container {
   padding-inline: 20px;
 }
 
@@ -422,7 +422,7 @@ footer {
   color: white;
 }
 
-.footer-container {
+.footer__container {
   max-width: 1440px;
   margin-top: 53px;
   padding-inline: 20px;
@@ -542,7 +542,7 @@ footer {
     background-size: 100% 72%;
   }
 
-  .footer-container {
+  .footer__container {
     max-width: 1920px;
     padding-bottom: 30px;
   }
@@ -785,7 +785,7 @@ footer {
     margin-bottom: 16px;
   }
 
-  .about .about-container .about-section .about-text p {
+  .about .about__container .about-section .about-text p {
     font-size: 14px;
     line-height: 1.5;
     font-weight: 400;
@@ -876,40 +876,40 @@ footer {
     max-width: 280px;
   }
 
-  .footer-container .footer-logo img {
+  .footer__container .footer-logo img {
     max-width: 108px;
     margin-top: 85px;
     margin-bottom: 35px;
   }
 
-  .footer-container .footer-location {
+  .footer__container .footer-location {
     gap: 16px;
     margin-bottom: 16px;
   }
 
-  .footer-container .footer-location img {
+  .footer__container .footer-location img {
     width: 24px;
   }
 
-  .footer-container .footer-location p {
+  .footer__container .footer-location p {
     font-size: 16px;
     font-weight: 400;
     line-height: 1.5;
     padding-inline: 16px;
   }
 
-  .footer-container .footer-contact {
+  .footer__container .footer-contact {
     margin-bottom: 56px;
   }
 
-  .footer-container .footer-contact .contact-item img {
+  .footer__container .footer-contact .contact-item img {
     width: 16px;
   }
-  .footer-container .footer-contact .contact-item:last-child img {
+  .footer__container .footer-contact .contact-item:last-child img {
     width: 24px;
   }
 
-  .footer-container .footer-contact .contact-item p {
+  .footer__container .footer-contact .contact-item p {
     font-size: 14px;
     font-weight: 400;
     line-height: 1.5;
@@ -924,7 +924,7 @@ footer {
     margin-bottom: 48px;
   }
 
-  .footer-container .footer-links a {
+  .footer__container .footer-links a {
     font-size: 16px;
     font-weight: 400;
   }
