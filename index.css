@@ -512,7 +512,7 @@ footer .footer__container--content {
 .footer-links ul li a {
   color: white;
   text-decoration: none;
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 400;
   font-family: 'Open Sans', sans-serif;
   transition: all 0.3s ease-in-out;
@@ -833,13 +833,7 @@ footer .footer__container--content {
 
   .testimonial-section .testimonial {
     max-width: 280px;
-    padding: 10px;
-    padding-top: 24px;
-  }
-
-  .testimonial-section .testimonial > p {
-    margin-bottom: 10px;
-    padding-inline: 30px;
+    padding: 24px 20px 17px 20px;
   }
 
   .testimonial-section .testimonial p {
@@ -847,10 +841,7 @@ footer .footer__container--content {
     line-height: 1.8;
     font-weight: 400;
     margin-bottom: 17px;
-  }
-
-  .testimonial-section .testimonial .testimonial-author img {
-    margin-left: 30px;
+    letter-spacing: 0;
   }
 
   .testimonial-section .testimonial .testimonial-author h4 {
