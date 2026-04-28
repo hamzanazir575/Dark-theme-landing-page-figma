@@ -7,28 +7,25 @@
 body {
   background-color: #1b2330;
   color: white;
-  font-family: 'Raleway', sans-serif;
-  margin: 0 auto;
-  background-image: url(images/main-bg-image.png);
-  background-size: auto;
+  font-family: "Raleway", sans-serif;
   background-repeat: no-repeat;
   background-position: center 84%;
 }
 
+header {
+  padding-inline: 20px;
+}
+
 nav {
   max-width: 1280px;
-  margin: 0 auto;
-  margin-top: 73px;
-  margin-bottom: 79px;
+  margin: 73px auto 79px auto;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-inline: 20px;
 }
 
 nav img {
   max-width: 100%;
-  margin-left: 20px;
 }
 
 nav ul {
@@ -86,63 +83,54 @@ nav ul {
   transform: rotate(-45deg) translate(6px, -6px);
 }
 
-.hero__container {
+.hero-content {
   padding-inline: 20px;
 }
 
-.hero-content {
+.hero__container {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: 0 auto;
+  margin: 0 auto 160px auto;
   max-width: 720px;
   text-align: center;
-  margin-bottom: 160px;
 }
 
-.hero-content .hero-image {
+.hero__container .hero-image {
   margin-bottom: 58px;
 }
 
-.hero-content .hero-image img {
+.hero__container .hero-image img {
   width: 100%;
-  height: auto;
+  height: 100%;
   display: block;
 }
 
-.hero-content h1 {
+.hero__container h1 {
   font-weight: 700;
-  margin-bottom: 20px;
   font-size: 40px;
   line-height: 1.5;
-  font-family: 'Raleway';
+  font-family: "Raleway";
   margin-bottom: 32px;
 }
 
-.hero-content p {
+.hero__container p {
   max-width: 590px;
   font-weight: 400;
   line-height: 1.5;
   font-size: 20px;
-  font-family: 'Open Sans';
+  font-family: "Open Sans";
   margin-bottom: 35px;
 }
 
 .btn-primary {
   padding: 22px 0px;
   max-width: 280px;
-  width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
   border-radius: 40px;
-  background: linear-gradient(138.1deg, #63e1d9 -49.34%, #34a0cd 100%);
-  color: white;
-  border: none;
-  outline: none;
-  font-family: 'Raleway';
-  font-weight: 700;
   font-size: 16px;
 }
 
@@ -159,9 +147,8 @@ nav ul {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   max-width: 880px;
-  margin: 0 auto;
+  margin: 0 auto 140px auto;
   gap: 80px 148px;
-  margin-bottom: 140px;
 }
 
 .services-section .service {
@@ -180,7 +167,7 @@ nav ul {
 .services-section .service .services-img-wrapper img {
   max-width: 100%;
 }
-.services-section .service h3 {
+.services-section .service h2 {
   font-size: 20px;
   font-weight: 700;
   margin-bottom: 10px;
@@ -188,7 +175,7 @@ nav ul {
 
 .services-section .service p {
   font-weight: 400;
-  font-family: 'Open Sans';
+  font-family: "Open Sans";
   font-size: 14px;
   line-height: 1.5;
   width: 102%;
@@ -202,10 +189,9 @@ nav ul {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 0 auto;
+  margin: 0 auto 120px auto;
   max-width: 1200px;
   gap: 60px;
-  margin-bottom: 120px;
 }
 
 .about-section-image {
@@ -221,7 +207,7 @@ nav ul {
   font-weight: 700;
   line-height: 1.25;
   margin-bottom: 8px;
-  font-family: 'Raleway';
+  font-family: "Raleway";
   max-width: 333px;
 }
 
@@ -231,7 +217,7 @@ nav ul {
   font-size: 16px;
   font-weight: 400;
   line-height: 1.5;
-  font-family: 'Open Sans';
+  font-family: "Open Sans";
 }
 
 .about-section .about-text p:nth-child(3) {
@@ -282,14 +268,13 @@ nav ul {
   flex-wrap: wrap;
   gap: 40px;
   max-width: 1180px;
-  margin: 0 auto;
-  margin-bottom: 100px;
+  margin: 0 auto 100px auto;
 }
 
 .testimonial-section .testimonial-quote {
   position: absolute;
   top: -36px;
-  left: 0px;
+  left: -6px;
   z-index: -1;
 }
 
@@ -304,7 +289,7 @@ nav ul {
 .testimonial-section .testimonial p {
   margin-bottom: 24px;
   font-size: 14px;
-  font-family: 'Open Sans';
+  font-family: "Open Sans";
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.5px;
@@ -323,14 +308,14 @@ nav ul {
 .testimonial-section .testimonial .testimonial-author h4 {
   margin-bottom: 4px;
   font-size: 10px;
-  font-family: 'Open Sans';
+  font-family: "Open Sans";
   font-weight: 700;
   line-height: 1.2;
 }
 
 .testimonial-section .testimonial .testimonial-author p {
   font-size: 7px;
-  font-family: 'Open Sans';
+  font-family: "Open Sans";
   font-weight: 400;
   line-height: 1.4;
   padding-inline: 0;
@@ -339,10 +324,6 @@ nav ul {
 }
 
 .cta__container {
-  padding-inline: 20px;
-}
-
-.cta__box {
   text-align: center;
   background-color: #1b2330;
   max-width: 860px;
@@ -350,60 +331,53 @@ nav ul {
   transform: translateY(40%);
   box-shadow: 5px 5px 8px 0px rgba(0, 0, 0, 0.2543);
   border-radius: 9px;
+  padding-inline: 20px;
 }
 
-.cta__box h5 {
+.cta__container h5 {
   font-size: 32px;
   font-weight: 700;
   line-height: 1.5;
-  font-family: 'Raleway';
-  margin: 0 auto;
-  margin-bottom: 16px;
+  font-family: "Raleway";
+  margin: 0 auto 16px auto;
   padding-top: 42px;
 }
 
-.cta__box p {
-  margin-bottom: 38px;
+.cta__container p {
+  max-width: 670px;
+  margin: 0 auto 38px auto;
   font-size: 14px;
-  font-family: 'Open Sans';
+  font-family: "Open Sans";
   font-weight: 400;
   line-height: 1.6;
-  padding-inline: 95px;
 }
 
-.cta__box .email-box {
+.cta__container .email-box {
   padding-bottom: 41px;
   position: relative;
   margin: 0 auto;
 }
 
-.email-box input[type='email'] {
+.email-box input[type="email"] {
   max-width: 480px;
   width: 100%;
   padding: 16px 16px 16px 37px;
   margin-right: 40px;
   border: none;
   border-radius: 24px;
-  font-family: 'Open Sans';
+  font-family: "Open Sans";
   font-weight: 400;
   font-size: 12px;
 }
 
-.email-box input[type='submit'] {
-  width: 100%;
+.email-box input[type="submit"] {
   max-width: 200px;
   padding: 15px 0;
   border-radius: 24px;
-  background: linear-gradient(138.1deg, #63e1d9 -49.34%, #34a0cd 100%);
-  color: white;
-  border: none;
-  outline: none;
-  font-family: 'Raleway';
-  font-weight: 700;
   font-size: 14px;
 }
 
-.email-box input[type='submit']:hover {
+.email-box input[type="submit"]:hover {
   background: #8adae3;
   cursor: pointer;
 }
@@ -411,7 +385,7 @@ nav ul {
 .error-message {
   color: red;
   font-size: 12px;
-  font-family: 'Open Sans';
+  font-family: "Open Sans";
   margin: 0;
   padding: 0;
   text-align: left;
@@ -423,17 +397,16 @@ nav ul {
 footer {
   background-color: #0b1523;
   color: white;
+  padding-inline: 20px;
 }
 
-footer .footer__container--content {
+footer .footer__container {
   max-width: 1240px;
-  margin-top: 53px;
   padding-top: 170px;
   display: flex;
   flex-direction: column;
   gap: 16px;
-  margin: 0 auto;
-  padding-inline: 20px;
+  margin: 53px auto 0 auto;
 }
 
 .footer-logo img {
@@ -447,6 +420,17 @@ footer .footer__container--content {
   margin-bottom: 53px;
 }
 
+.footer-left {
+  display: flex;
+  gap: 80px;
+}
+
+.footer-right {
+  display: flex;
+  gap: 80px;
+  align-items: flex-start;
+}
+
 .footer-logo img {
   width: 110px;
 }
@@ -454,7 +438,7 @@ footer .footer__container--content {
 .footer-location {
   max-width: 380px;
   display: flex;
-  gap: 10px;
+  gap: 16px;
   align-items: flex-start;
 }
 
@@ -467,7 +451,7 @@ footer .footer__container--content {
   font-size: 16px;
   font-weight: 400;
   line-height: 1.5;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 
 .footer-contact {
@@ -499,7 +483,7 @@ footer .footer__container--content {
   font-size: 14px;
   font-weight: 400;
   line-height: 1.5;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   max-width: 340px;
 }
 
@@ -515,7 +499,7 @@ footer .footer__container--content {
   text-decoration: none;
   font-size: 16px;
   font-weight: 400;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   transition: all 0.3s ease-in-out;
 }
 
@@ -561,7 +545,7 @@ footer .footer__container--content {
     background-size: 100% 72%;
   }
 
-  .footer__container--content {
+  .footer__container {
     max-width: 1920px;
   }
 }
@@ -635,11 +619,10 @@ footer .footer__container--content {
     align-items: center;
   }
 
-  .about-section .about-text h3 {
+  .about-section .about-text h2 {
     max-width: 100%;
     text-align: center;
-    margin: 0 auto;
-    margin-bottom: 12px;
+    margin: 0 auto 12px auto;
   }
 
   .about-section .about-text p {
@@ -660,17 +643,16 @@ footer .footer__container--content {
     margin-bottom: 80px;
   }
 
-  .cta__box .email-box {
+  .cta__container .email-box {
     flex-direction: column;
   }
 
-  .email-box input[type='email'] {
+  .email-box input[type="email"] {
     max-width: 380px;
-    margin: 0 auto;
-    margin-bottom: 24px;
+    margin: 0 auto 24px auto;
   }
 
-  .email-box input[type='submit'] {
+  .email-box input[type="submit"] {
     max-width: 200px;
   }
 
@@ -684,7 +666,7 @@ footer .footer__container--content {
     margin-left: 28px;
   }
 
-  .footer__container--content .footer-location {
+  .footer__container .footer-location {
     margin-bottom: 16px;
   }
 
@@ -716,8 +698,7 @@ footer .footer__container--content {
   }
 
   nav {
-    margin-top: 24px;
-    margin-bottom: 50px;
+    margin: 24px 0 50px 0;
     max-width: 340px;
   }
 
@@ -730,16 +711,16 @@ footer .footer__container--content {
     margin-left: 0;
   }
 
-  .hero-content .hero-image {
+  .hero__container .hero-image {
     max-width: 304px;
     margin-bottom: 35px;
   }
 
-  .hero-content img {
+  .hero__container img {
     width: 100%;
   }
 
-  .hero-content h1 {
+  .hero__container h1 {
     font-weight: 700;
     font-size: 24px;
     line-height: 1.5;
@@ -747,7 +728,7 @@ footer .footer__container--content {
     margin-bottom: 15px;
     max-width: 320px;
   }
-  .hero-content p {
+  .hero__container p {
     font-size: 14px;
     font-weight: 400;
     line-height: 1.5;
@@ -764,8 +745,7 @@ footer .footer__container--content {
 
   .services-section {
     max-width: 320px;
-    margin-bottom: 160px;
-    margin-top: 120px;
+    margin: 120px 0 160px 0;
   }
 
   .services-section .service .services-img-wrapper {
@@ -778,11 +758,11 @@ footer .footer__container--content {
     height: 60px;
   }
 
-  .services-section .service h3 {
+  .services-section .service h2 {
     font-size: 18px;
     line-height: 1.3;
     font-weight: 700;
-    font-family: 'Raleway';
+    font-family: "Raleway";
     margin-bottom: 8px;
   }
 
@@ -861,12 +841,12 @@ footer .footer__container--content {
     max-width: 33px;
   }
 
-  .cta__box {
+  .cta__container {
     max-width: 100%;
     box-sizing: border-box;
   }
 
-  .cta__box h5 {
+  .cta__container h5 {
     max-width: 195px;
     font-size: 18px;
     font-weight: 700;
@@ -875,29 +855,28 @@ footer .footer__container--content {
     margin-bottom: 16px;
   }
 
-  .cta__box p {
+  .cta__container p {
     max-width: 280px;
     font-size: 14px;
     font-weight: 400;
     line-height: 1.5;
     text-align: center;
-    margin: 0 auto;
-    margin-bottom: 20px;
-    font-family: 'Open Sans';
+    margin: 0 auto 20px auto;
+    font-family: "Open Sans";
     padding-inline: 0px;
   }
 
-  .cta__box .email-box {
+  .cta__container .email-box {
     gap: 24px;
     padding-bottom: 37px;
   }
 
-  .cta__box .email-box input[type='email'] {
+  .cta__container .email-box input[type="email"] {
     margin-bottom: 24px;
   }
 
-  .cta__box .email-box input[type='email'],
-  .cta__box .email-box input[type='submit'] {
+  .cta__container .email-box input[type="email"],
+  .cta__container .email-box input[type="submit"] {
     max-width: 280px;
   }
 
@@ -906,41 +885,41 @@ footer .footer__container--content {
     margin-left: 28px;
   }
 
-  .footer__container--content .footer-logo img {
+  .footer__container .footer-logo img {
     max-width: 108px;
     margin: 85px 0 35px 48px;
     justify-content: center;
     align-items: center;
   }
 
-  .footer__container--content .footer-location {
+  .footer__container .footer-location {
     gap: 16px;
     margin-bottom: 16px;
   }
 
-  .footer__container--content .footer-location img {
+  .footer__container .footer-location img {
     width: 24px;
   }
 
-  .footer__container--content .footer-location p {
+  .footer__container .footer-location p {
     font-size: 16px;
     font-weight: 400;
     line-height: 1.5;
     max-width: 280px;
   }
 
-  .footer__container--content .footer-contact {
+  .footer__container .footer-contact {
     margin-bottom: 40px;
   }
 
-  .footer__container--content .footer-contact .contact-item img {
+  .footer__container .footer-contact .contact-item img {
     width: 16px;
   }
-  .footer__container--content .footer-contact .contact-item:last-child img {
+  .footer__container .footer-contact .contact-item:last-child img {
     width: 24px;
   }
 
-  .footer__container--content .footer-contact .contact-item p {
+  .footer__container .footer-contact .contact-item p {
     font-size: 14px;
     font-weight: 400;
     line-height: 1.5;
@@ -954,8 +933,18 @@ footer .footer__container--content {
     margin-bottom: 32px;
   }
 
-  .footer__container--content .footer-links a {
+  .footer__container .footer-links a {
     font-size: 16px;
     font-weight: 400;
   }
+}
+
+.btn__styles {
+  width: 100%;
+  background: linear-gradient(138.1deg, #63e1d9 -49.34%, #34a0cd 100%);
+  color: white;
+  border: none;
+  outline: none;
+  font-family: "Raleway";
+  font-weight: 700;
 }
