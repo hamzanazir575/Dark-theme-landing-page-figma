@@ -141,7 +141,7 @@ nav ul {
   padding-inline: 20px;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  max-width: 880px;
+  max-width: 920px;
   margin: 0 auto 140px auto;
   gap: 80px 148px;
 }
@@ -903,12 +903,12 @@ footer .footer__container {
   }
 
   footer {
-    padding-inline: 0px;
+    padding-inline: 20px;
   }
 
   .footer-content {
     row-gap: 16px;
-    margin-left: 28px;
+    column-gap: 30px;
   }
 
   footer .footer__container {
@@ -917,7 +917,7 @@ footer .footer__container {
 
   .footer__container .footer-logo img {
     max-width: 108px;
-    margin: 85px 0 26px 20px;
+    margin: 85px 0 26px 0;
     justify-content: center;
     align-items: center;
   }
