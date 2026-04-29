@@ -92,19 +92,21 @@ nav ul {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: 0 auto 160px auto;
+  margin: 0 auto 158px auto;
   max-width: 720px;
   text-align: center;
 }
 
 .hero__container .hero-image {
-  margin-bottom: 58px;
+  width: 100%;
+  height: 100%;
 }
 
 .hero__container .hero-image img {
   width: 100%;
   height: 100%;
   display: block;
+  margin-bottom: 33px;
 }
 
 .hero__container h1 {
@@ -206,7 +208,8 @@ nav ul {
   font-size: 40px;
   font-weight: 700;
   line-height: 1.25;
-  margin-bottom: 8px;
+  letter-spacing: 0;
+  margin-bottom: 20px;
   font-family: "Raleway";
   max-width: 333px;
 }
@@ -237,6 +240,10 @@ nav ul {
   color: inherit;
   text-decoration: none;
   padding-bottom: 5px;
+  font-size: 12px;
+  letter-spacing: 0;
+  font-weight: 400;
+  font-family: "Open Sans";
 }
 
 .link:hover {
@@ -362,7 +369,7 @@ nav ul {
   max-width: 480px;
   width: 100%;
   padding: 16px 16px 16px 37px;
-  margin-right: 40px;
+  margin-right: 30px;
   border: none;
   border-radius: 24px;
   font-family: "Open Sans";
@@ -402,7 +409,7 @@ footer {
 
 footer .footer__container {
   max-width: 1240px;
-  padding-top: 170px;
+  padding-top: 120px;
   display: flex;
   flex-direction: column;
   gap: 16px;
@@ -619,7 +626,7 @@ footer .footer__container {
     align-items: center;
   }
 
-  .about-section .about-text h2 {
+  .about-section .about-text h3 {
     max-width: 100%;
     text-align: center;
     margin: 0 auto 12px auto;
@@ -649,7 +656,6 @@ footer .footer__container {
 
   .email-box input[type="email"] {
     max-width: 380px;
-    margin: 0 auto 24px auto;
   }
 
   .email-box input[type="submit"] {
@@ -725,10 +731,6 @@ footer .footer__container {
   .hero__container .hero-image {
     max-width: 304px;
     margin-bottom: 35px;
-  }
-
-  .hero__container img {
-    width: 100%;
   }
 
   .hero__container h1 {
@@ -853,8 +855,10 @@ footer .footer__container {
   }
 
   .cta__container {
-    max-width: 100%;
-    box-sizing: border-box;
+    max-width: 335px;
+    width: 100%;
+    margin: 0 15px 0 15px;
+    padding-inline: 0;
   }
 
   .cta__container h5 {
@@ -872,22 +876,22 @@ footer .footer__container {
     font-weight: 400;
     line-height: 1.5;
     text-align: center;
-    margin: 0 auto 20px auto;
+    margin: 0 auto 32px auto;
     font-family: "Open Sans";
     padding-inline: 0px;
   }
 
   .cta__container .email-box {
-    gap: 24px;
-    padding-bottom: 37px;
+    padding-bottom: 0;
   }
 
   .cta__container .email-box input[type="email"] {
     margin-bottom: 24px;
+    max-width: 280px;
   }
 
-  .cta__container .email-box input[type="email"],
   .cta__container .email-box input[type="submit"] {
+    margin-bottom: 36px;
     max-width: 280px;
   }
 
@@ -906,7 +910,7 @@ footer .footer__container {
 
   .footer__container .footer-logo img {
     max-width: 108px;
-    margin: 85px 0 35px 20px;
+    margin: 85px 0 26px 20px;
     justify-content: center;
     align-items: center;
   }
@@ -914,6 +918,7 @@ footer .footer__container {
   .footer-left {
     flex-direction: column;
     align-items: flex-start;
+    gap: 16px;
   }
 
   .footer-right {
@@ -924,7 +929,7 @@ footer .footer__container {
 
   .footer__container .footer-location {
     gap: 16px;
-    margin-bottom: 16px;
+    margin-bottom: 0;
   }
 
   .footer__container .footer-location img {
@@ -956,17 +961,10 @@ footer .footer__container {
     line-height: 1.5;
   }
 
-  .footer-content .footer-links:nth-child(3) {
-    margin-bottom: 32px;
-  }
-
-  .footer-content .footer-links:nth-child(4) {
-    margin-bottom: 32px;
-  }
-
   .footer__container .footer-links a {
     font-size: 16px;
     font-weight: 400;
+    font-family: "Open Sans";
   }
 }
 
