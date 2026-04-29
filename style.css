@@ -318,6 +318,7 @@ nav ul {
   font-family: "Open Sans";
   font-weight: 700;
   line-height: 1.2;
+  letter-spacing: 0.5px;
 }
 
 .testimonial-section .testimonial .testimonial-author p {
@@ -325,6 +326,7 @@ nav ul {
   font-family: "Open Sans";
   font-weight: 400;
   line-height: 1.4;
+  letter-spacing: 0.65px;
   padding-inline: 0;
   margin-bottom: 0;
   color: #ffffff;
