@@ -723,7 +723,7 @@ footer .footer__container {
   }
 
   nav {
-    margin: 24px 0 50px 0;
+    margin: 24px auto 50px auto;
     max-width: 340px;
   }
 
