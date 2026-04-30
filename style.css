@@ -575,7 +575,6 @@ footer .footer__container {
 
   .footer-right {
     flex-direction: column;
-    align-items: flex-start;
   }
 }
 
@@ -583,6 +582,10 @@ footer .footer__container {
   body {
     background-size: auto;
     background-position: 50% 32%;
+  }
+
+  nav {
+    margin-top: 40px;
   }
 
   nav img {
@@ -623,8 +626,7 @@ footer .footer__container {
   }
 
   .services__container {
-    display: flex;
-    flex-direction: column;
+    grid-template-columns: 1fr;
   }
 
   .service {
@@ -638,7 +640,6 @@ footer .footer__container {
 
   .about__container {
     flex-direction: column;
-    align-items: center;
   }
 
   .about-text h3 {
@@ -689,7 +690,6 @@ footer .footer__container {
   }
 
   .footer-right {
-    flex-direction: column;
     gap: 48px;
     align-items: flex-start;
   }
@@ -764,7 +764,6 @@ footer .footer__container {
     max-width: 240px;
     box-sizing: border-box;
     font-size: 14px;
-    font-weight: 700;
   }
 
   .service {
@@ -867,7 +866,6 @@ footer .footer__container {
 
   .cta__container {
     width: 100%;
-    padding-inline: 20px;
   }
 
   .cta__container h5 {
@@ -933,7 +931,6 @@ footer .footer__container {
 
   .footer-right {
     flex-direction: column;
-    gap: 48px;
     align-items: flex-start;
   }
 
