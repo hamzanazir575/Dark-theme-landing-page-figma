@@ -44,7 +44,10 @@
     <section class="hero">
       <div class="hero__container">
         <div class="hero__container--image">
-          <img src="images/hero-img.png" alt="hero-image" />
+          <picture>
+            <source media="(min-width:768px)" srcset="images/hero-img.png" />
+            <img src="images/hero-mobile-img.png" alt="hero-image" />
+          </picture>
         </div>
         <h1>All your files in one secure location, accessible anywhere.</h1>
         <p>Fylo stores all your most important files in one secure location. Access them wherever you need, share and collaborate with friends family, and co-workers.</p>
