@@ -368,6 +368,7 @@ nav ul {
   font-family: "Open Sans";
   font-weight: 400;
   font-size: 12px;
+  color: rgba(192, 192, 192, 1);
 }
 
 .email__box input[type="submit"] {
@@ -772,6 +773,7 @@ footer .footer__container {
     margin-right: 0;
     margin-bottom: 24px;
     max-width: 280px;
+    font-size: 10px;
   }
 
   .cta__container .email__box input[type="submit"] {
