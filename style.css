@@ -144,29 +144,29 @@ nav ul {
   margin: 0 auto 140px auto;
   gap: 80px 148px;
 
-  & .services__service {
+  .services__service {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
 
-    & .services__image {
+    .services__image {
       max-width: 104px;
       margin-bottom: 16px;
 
-      & img {
+      img {
         width: 100%;
       }
     }
 
-    & h2 {
+    h2 {
       font-size: 20px;
       font-weight: 700;
       margin-bottom: 10px;
     }
 
-    & p {
+    p {
       font-weight: 400;
       font-family: "Open Sans";
       font-size: 14px;
@@ -644,13 +644,15 @@ nav ul {
     grid-template-columns: 1fr;
     margin-bottom: 160px;
 
-    & .services__service .services__image {
-      max-width: 80px;
-      margin-bottom: 24px;
-    }
+    .services__service {
+      .services__image {
+        max-width: 80px;
+        margin-bottom: 24px;
+      }
 
-    & .services__service p {
-      padding-inline: 16px;
+      p {
+        padding-inline: 16px;
+      }
     }
   }
 
