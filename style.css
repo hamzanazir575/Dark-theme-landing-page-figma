@@ -609,7 +609,7 @@ body {
   .hero__container p {
     font-size: 14px;
     margin-bottom: 32px;
-    padding-inline: 15px;
+    padding-inline: 10px;
   }
 
   .btn__primary {
@@ -620,15 +620,12 @@ body {
   .services__container {
     grid-template-columns: 1fr;
     margin-bottom: 160px;
+    padding-inline: 29px;
 
     .services__service {
       .services__image {
         max-width: 80px;
         margin-bottom: 24px;
-      }
-
-      p {
-        padding-inline: 16px;
       }
     }
   }
@@ -637,6 +634,7 @@ body {
     gap: 50px;
     margin-bottom: 160px;
     flex-direction: column;
+    padding-inline: 28px;
   }
 
   .about-image {
@@ -665,6 +663,7 @@ body {
     flex-wrap: nowrap;
     flex-direction: column;
     width: 100%;
+    padding-inline: 50px;
   }
 
   .testimonials__testimonial {
