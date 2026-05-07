@@ -673,7 +673,6 @@ body {
   }
 
   .testimonials__testimonial p {
-    /* max-width: 240px; */
     font-size: 10px;
     line-height: 1.8;
     font-weight: 400;
@@ -693,7 +692,7 @@ body {
 
   .cta__container {
     transform: translateY(50%);
-    padding: 35px 25px;
+    padding: 35px 18px;
   }
 
   .cta__container .email__box {
