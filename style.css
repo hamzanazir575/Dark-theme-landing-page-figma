@@ -686,6 +686,7 @@ body {
 
   .footer__column:nth-child(1) {
     gap: 16px;
+    flex-direction: column;
   }
 
   .footer__container .footer__location img {
