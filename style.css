@@ -618,7 +618,7 @@ body {
     flex-wrap: nowrap;
     flex-direction: column;
     width: 100%;
-    padding-inline: 50px;
+    padding-inline: 30px;
   }
 
   .testimonials__testimonial {
@@ -626,7 +626,7 @@ body {
   }
 
   .testimonials__testimonial p {
-    font-size: 10px;
+    font-size: 12px;
     line-height: 1.8;
     margin-bottom: 17px;
     letter-spacing: 0;
